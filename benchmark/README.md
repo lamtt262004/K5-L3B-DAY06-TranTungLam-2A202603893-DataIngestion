@@ -26,7 +26,7 @@ Chia theo **chủ đề/mục** chứ không theo tài liệu (corpus chỉ có 
 
 ## Kiểm chứng evidence
 
-`python -m src.run verify` (gọi `evaluation.verify_benchmark`) kiểm tra từng `evidence_quote` có nằm nguyên văn (so sánh sau khi gộp khoảng trắng, không phân biệt hoa thường) trong text đã chuẩn hóa của trang gold. Kết quả lần chạy: 28/28 hợp lệ, 0 lỗi (`results/benchmark_verification.json`). Đáp án và evidence được tác giả đọc lại thủ công trên text nguồn.
+`python -m src.run prepare` (gọi `evaluation.verify_benchmark`) kiểm tra từng `evidence_quote` có nằm nguyên văn (so sánh sau khi gộp khoảng trắng, không phân biệt hoa thường) trong text đã chuẩn hóa của trang gold. Kết quả lần chạy: 28/28 hợp lệ, 0 lỗi (`results/benchmark_verification.json`). Tôi đã đọc lại thủ công đáp án và evidence trên text nguồn.
 
 ## Tiêu chí chọn chiến lược (chốt trước khi xem test)
 

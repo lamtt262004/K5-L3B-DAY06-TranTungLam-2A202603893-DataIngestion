@@ -12,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 M = ROOT / "results" / "manual"
-LABELER = "author (AI-assisted, reviewed; see report)"
+LABELER = "Trần Tùng Lâm (có hỗ trợ AI, đã rà soát; xem báo cáo)"
 
 COHERENCE = {
     (1, "A"): (1, "Bắt đầu giữa câu ('n GitHub <...>`__.'), kết thúc cắt giữa câu ('...coordination problems'); đoạn PEP Audience ở giữa đọc được."),

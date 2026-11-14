@@ -1,4 +1,4 @@
-# Day 06 · Data Ingestion — Python PEP knowledge base
+# Day 06 - Data Ingestion: Python PEP knowledge base
 
 Bài lab cá nhân của **Trần Tùng Lâm (2A202603893, L3B)**. Đề bài gốc: [ASSIGNMENT.md](ASSIGNMENT.md).
 Báo cáo: [report/individual/2A202603893_TranTungLam.md](report/individual/2A202603893_TranTungLam.md).
@@ -11,7 +11,7 @@ Pipeline đọc 8 PEP (định dạng reStructuredText), chuẩn hóa văn bản
 | Embedding (kết quả chính) | `BAAI/bge-small-en-v1.5`, chạy local bằng sentence-transformers 6.3.0, 384 chiều, CPU, chi phí 0 |
 | Embedding (thí nghiệm thêm) | OpenAI `text-embedding-3-small`, 1536 chiều, khoảng $0.003 → [results_openai/](results_openai/) |
 | Vector store | ChromaDB 1.5.9 `PersistentClient` (`chroma_db/`), HNSW cosine (tìm kiếm xấp xỉ), lọc bằng `where` |
-| Chiến lược | A = cửa sổ cố định 500/50 · B = theo heading/đoạn, tối đa 1200 · C = B + filter metadata (`pep_type`/`python_version`) |
+| Chiến lược | A: cửa sổ cố định 500/50; B: theo heading/đoạn, tối đa 1200; C: B + filter metadata (`pep_type`/`python_version`) |
 
 ## Cấu trúc
 
