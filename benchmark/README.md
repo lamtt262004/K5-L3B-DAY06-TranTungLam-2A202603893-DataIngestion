@@ -4,9 +4,11 @@ File: [questions.jsonl](questions.jsonl). Viết và chia split **trước khi c
 
 ## Trường dữ liệu
 
-`id`, `split`, `type` (direct / paraphrase / conditional / metadata_filter), `question`, `expected_answer`,
-`gold` = danh sách `{source_id, page, evidence_quote}` (chấp nhận **bất kỳ** gold hợp lệ nào), `filter` (hoặc `null`), `filter_context`.
-`page` = số thứ tự đơn vị nội dung trong tài liệu (xem `data/manifest.json`, page_id = `<source_id>-pNN`).
+Theo BENCHMARK.md: `id`, `split`, `type` (direct / paraphrase / conditional / metadata_filter), `question`, `expected_answer`,
+`gold_source_id`, `gold_page`, `evidence_quote` (gold chính), `filter` (hoặc `null`), `filter_context`.
+Thêm `gold` = danh sách mọi `{source_id, page, evidence_quote}` hợp lệ (gồm cả gold chính); khi chấm, chunk khớp **bất kỳ** gold nào trong danh sách đều được tính hit. Chỉ d12, d20, d21 có nhiều hơn 1 gold.
+`gold_page` = số thứ tự đơn vị nội dung trong tài liệu (xem `data/manifest.json`, page_id = `<source_id>-pNN`).
+Ghi chú: 3 trường `gold_source_id`/`gold_page`/`evidence_quote` được tách ra ở cấp ngoài sau khi chạy để đúng tên trường của đề; nội dung câu hỏi, đáp án và gold không thay đổi (script kiểm tra so sánh trước/sau).
 
 ## Phân bố
 

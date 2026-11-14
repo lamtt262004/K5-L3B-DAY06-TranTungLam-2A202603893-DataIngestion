@@ -29,6 +29,12 @@ def verify_benchmark(pages) -> dict[str, Any]:
     qs = load_questions()
     problems = []
     for q in qs:
+        # BENCHMARK.md fields: gold_source_id / gold_page / evidence_quote = primary gold,
+        # `gold` lists every accepted (source, page, evidence) and must contain the primary one.
+        primary = {"source_id": q.get("gold_source_id"), "page": q.get("gold_page"),
+                   "evidence_quote": q.get("evidence_quote")}
+        if primary not in q["gold"]:
+            problems.append(f"{q['id']}: gold_source_id/gold_page/evidence_quote not in `gold` list")
         for g in q["gold"]:
             p = by_key.get((g["source_id"], g["page"]))
             if p is None:
