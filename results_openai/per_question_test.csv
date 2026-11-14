@@ -1,0 +1,19 @@
+﻿question_id,type,strategy,filter_applied,hit1,hit3,gold_page_in_top3,split_evidence,top1_chunk,top1_score
+t01,direct,A,null,0,0,1,0,pep-0008-p15-c002,0.47937
+t02,conditional,A,null,0,1,1,0,pep-0572-p15-c003,0.52149
+t03,paraphrase,A,null,0,0,1,0,pep-0498-p01-c004,0.51611
+t04,direct,A,null,1,1,1,0,pep-0257-p03-c003,0.62206
+t05,metadata_filter,A,null,0,0,0,0,pep-0636-p04-c004,0.51345
+t06,metadata_filter,A,null,1,1,1,0,pep-0634-p03-c001,0.5458
+t01,direct,B,null,1,1,1,0,pep-0008-p15-c001,0.58824
+t02,conditional,B,null,0,1,1,0,pep-0572-p15-c002,0.54605
+t03,paraphrase,B,null,0,0,0,0,pep-0498-p06-c001,0.47884
+t04,direct,B,null,1,1,1,0,pep-0257-p03-c001,0.59764
+t05,metadata_filter,B,null,0,0,0,0,pep-0636-p04-c002,0.51672
+t06,metadata_filter,B,null,1,1,1,0,pep-0634-p03-c001,0.54947
+t01,direct,C,null,1,1,1,0,pep-0008-p15-c001,0.58823
+t02,conditional,C,null,0,1,1,0,pep-0572-p15-c002,0.54605
+t03,paraphrase,C,null,0,0,0,0,pep-0498-p06-c001,0.47884
+t04,direct,C,null,1,1,1,0,pep-0257-p03-c001,0.59767
+t05,metadata_filter,C,"{""pep_type"": ""Informational""}",0,0,0,0,pep-0636-p04-c002,0.51672
+t06,metadata_filter,C,"{""pep_type"": ""Standards Track""}",1,1,1,0,pep-0634-p03-c001,0.54957

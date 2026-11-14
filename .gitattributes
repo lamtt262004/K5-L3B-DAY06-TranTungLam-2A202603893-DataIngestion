@@ -1,0 +1,2 @@
+# keep raw sources byte-identical (sha256 in data/manifest.json)
+data/raw/*.rst -text

@@ -1,0 +1,19 @@
+{
+  "n_questions": 28,
+  "split": {
+    "dev": 22,
+    "test": 6
+  },
+  "filter_questions": {
+    "dev": 4,
+    "test": 2
+  },
+  "types": {
+    "direct": 8,
+    "conditional": 8,
+    "paraphrase": 6,
+    "metadata_filter": 6
+  },
+  "problems": [],
+  "checked_at": "2026-11-14T10:49:28+07:00"
+}

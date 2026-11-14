@@ -1,0 +1,23 @@
+{
+  "1_first_ingest": {
+    "added": 16,
+    "deleted": 0,
+    "skipped": 0,
+    "count": 16
+  },
+  "2_same_version": {
+    "added": 0,
+    "deleted": 0,
+    "skipped": 16,
+    "count": 16
+  },
+  "3_changed_version": {
+    "added": 10,
+    "deleted": 16,
+    "skipped": 0,
+    "count": 10,
+    "expected_count": 10
+  },
+  "stale_ids_left": [],
+  "duplicate_free": true
+}

@@ -1,4 +1,4 @@
-strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+﻿strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
+A,fixed-size character windows inside each page,500,50,"document_id, source, page, page_id, section(at chunk start), pep_type, python_version, status, title, char_start/char_end",none,"BAAI/bge-small-en-v1.5 (local, 384-d, cosine, Chroma 1.5.9 HNSW)","Baseline: windows cut sentences/headings, so evidence may be cut and chunks less coherent",9/22,16/22,2/6,2/6,"606 chunks; ingest 33.0 s CPU; cost 0. OpenAI text-embedding-3-small run: dev 9/22 16/22, test 2/6 3/6"
+B,structure-aware: rst heading starts a chunk; paragraphs grouped under same heading; oversized paragraphs split at sentence end,max 1200,0,same as A,none,same as A,"Respecting headings/paragraphs keeps each rule whole -> higher Hit@1/Hit@3 and coherence than A",14/22,19/22,3/6,3/6,"364 chunks; ingest 37.3 s CPU; cost 0. Selected on dev by pre-registered rule (tie with C). OpenAI run: dev 16/22 19/22, test 3/6 4/6"
+C,same index as B (identical chunks/vectors),max 1200,0,same as A,"pep_type / python_version equality filter, only for questions that provide a filter (6/28); others run unfiltered",same as A,"Filter removes out-of-scope documents (e.g. tutorial vs spec) -> better filter compliance, Hit@3 unchanged or better",14/22,19/22,3/6,3/6,"Only difference B->C = query-time filter. Filter compliance test 2/2 vs B 1/2; dev 4/4 both. OpenAI run: same Hit as B"

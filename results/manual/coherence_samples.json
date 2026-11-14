@@ -1,0 +1,302 @@
+[
+  {
+    "position": 1,
+    "page_id": "pep-0001-p01",
+    "char_offset": 1087,
+    "strategy": "A",
+    "chunk_id": "pep-0001-p01-c002",
+    "section": "What is a PEP?",
+    "chunk_chars": 500,
+    "text": "n GitHub <https://github.com/python/peps>`__.\n\nPEP Audience\n============\n\nThe typical primary audience for PEPs are the core developers of the CPython\nreference interpreter and their elected Steering Council, as well as developers\nof other implementations of the Python language specification.\n\nHowever, other parts of the Python community may also choose to use the process\n(particularly for Informational PEPs) to document expected API conventions and\nto manage complex design coordination problems"
+  },
+  {
+    "position": 1,
+    "page_id": "pep-0001-p01",
+    "char_offset": 1087,
+    "strategy": "B",
+    "chunk_id": "pep-0001-p01-c001",
+    "section": "PEP Audience",
+    "chunk_chars": 506,
+    "text": "PEP Audience\n============\n\nThe typical primary audience for PEPs are the core developers of the CPython\nreference interpreter and their elected Steering Council, as well as developers\nof other implementations of the Python language specification.\n\nHowever, other parts of the Python community may also choose to use the process\n(particularly for Informational PEPs) to document expected API conventions and\nto manage complex design coordination problems that require collaboration across\nmultiple projects."
+  },
+  {
+    "position": 1,
+    "page_id": "pep-0001-p01",
+    "char_offset": 1087,
+    "strategy": "C",
+    "chunk_id": "pep-0001-p01-c001",
+    "section": "PEP Audience",
+    "chunk_chars": 506,
+    "text": "PEP Audience\n============\n\nThe typical primary audience for PEPs are the core developers of the CPython\nreference interpreter and their elected Steering Council, as well as developers\nof other implementations of the Python language specification.\n\nHowever, other parts of the Python community may also choose to use the process\n(particularly for Informational PEPs) to document expected API conventions and\nto manage complex design coordination problems that require collaboration across\nmultiple projects."
+  },
+  {
+    "position": 2,
+    "page_id": "pep-0001-p12",
+    "char_offset": 1005,
+    "strategy": "A",
+    "chunk_id": "pep-0001-p12-c002",
+    "section": "What belongs in a successful PEP?",
+    "chunk_chars": 498,
+    "text": "describing why particular design decisions were made.  It should\n   describe alternate designs that were considered and related work,\n   e.g. how the feature is supported in other languages.\n\n   The rationale should provide evidence of consensus within the\n   community and discuss important objections or concerns raised\n   during discussion.\n\n6. Backwards Compatibility -- All PEPs that introduce backwards\n   incompatibilities must include a section describing these\n   incompatibilities and the"
+  },
+  {
+    "position": 2,
+    "page_id": "pep-0001-p12",
+    "char_offset": 1005,
+    "strategy": "B",
+    "chunk_id": "pep-0001-p12-c000",
+    "section": "What belongs in a successful PEP?",
+    "chunk_chars": 1092,
+    "text": "2. Abstract -- a short (~200 word) description of the technical issue\n   being addressed.\n\n3. Motivation -- The motivation is critical for PEPs that want to\n   change the Python language, library, or ecosystem.  It should\n   clearly explain why the existing language specification is\n   inadequate to address the problem that the PEP solves.  This can\n   include collecting documented support for the PEP from important\n   projects in the Python ecosystem.  PEP submissions without\n   sufficient motivation may be rejected.\n\n4. Specification -- The technical specification should describe the\n   syntax and semantics of any new language feature.  The\n   specification should be detailed enough to allow competing,\n   interoperable implementations for at least the current major Python\n   platforms (CPython, Jython, IronPython, PyPy).\n\n5. Rationale -- The rationale fleshes out the specification by\n   describing why particular design decisions were made.  It should\n   describe alternate designs that were considered and related work,\n   e.g. how the feature is supported in other languages."
+  },
+  {
+    "position": 2,
+    "page_id": "pep-0001-p12",
+    "char_offset": 1005,
+    "strategy": "C",
+    "chunk_id": "pep-0001-p12-c000",
+    "section": "What belongs in a successful PEP?",
+    "chunk_chars": 1092,
+    "text": "2. Abstract -- a short (~200 word) description of the technical issue\n   being addressed.\n\n3. Motivation -- The motivation is critical for PEPs that want to\n   change the Python language, library, or ecosystem.  It should\n   clearly explain why the existing language specification is\n   inadequate to address the problem that the PEP solves.  This can\n   include collecting documented support for the PEP from important\n   projects in the Python ecosystem.  PEP submissions without\n   sufficient motivation may be rejected.\n\n4. Specification -- The technical specification should describe the\n   syntax and semantics of any new language feature.  The\n   specification should be detailed enough to allow competing,\n   interoperable implementations for at least the current major Python\n   platforms (CPython, Jython, IronPython, PyPy).\n\n5. Rationale -- The rationale fleshes out the specification by\n   describing why particular design decisions were made.  It should\n   describe alternate designs that were considered and related work,\n   e.g. how the feature is supported in other languages."
+  },
+  {
+    "position": 3,
+    "page_id": "pep-0008-p05",
+    "char_offset": 1014,
+    "strategy": "A",
+    "chunk_id": "pep-0008-p05-c002",
+    "section": "Code Lay-out > Blank Lines",
+    "chunk_chars": 500,
+    "text": "s with two blank\nlines.\n\nMethod definitions inside a class are surrounded by a single blank\nline.\n\nExtra blank lines may be used (sparingly) to separate groups of\nrelated functions.  Blank lines may be omitted between a bunch of\nrelated one-liners (e.g. a set of dummy implementations).\n\nUse blank lines in functions, sparingly, to indicate logical sections.\n\nPython accepts the control-L (i.e. ^L) form feed character as\nwhitespace; many tools treat these characters as page separators, so\nyou may u"
+  },
+  {
+    "position": 3,
+    "page_id": "pep-0008-p05",
+    "char_offset": 1014,
+    "strategy": "B",
+    "chunk_id": "pep-0008-p05-c001",
+    "section": "Code Lay-out > Blank Lines",
+    "chunk_chars": 763,
+    "text": "Blank Lines\n-----------\n\nSurround top-level function and class definitions with two blank\nlines.\n\nMethod definitions inside a class are surrounded by a single blank\nline.\n\nExtra blank lines may be used (sparingly) to separate groups of\nrelated functions.  Blank lines may be omitted between a bunch of\nrelated one-liners (e.g. a set of dummy implementations).\n\nUse blank lines in functions, sparingly, to indicate logical sections.\n\nPython accepts the control-L (i.e. ^L) form feed character as\nwhitespace; many tools treat these characters as page separators, so\nyou may use them to separate pages of related sections of your file.\nNote, some editors and web-based code viewers may not recognize\ncontrol-L as a form feed and will show another glyph in its place."
+  },
+  {
+    "position": 3,
+    "page_id": "pep-0008-p05",
+    "char_offset": 1014,
+    "strategy": "C",
+    "chunk_id": "pep-0008-p05-c001",
+    "section": "Code Lay-out > Blank Lines",
+    "chunk_chars": 763,
+    "text": "Blank Lines\n-----------\n\nSurround top-level function and class definitions with two blank\nlines.\n\nMethod definitions inside a class are surrounded by a single blank\nline.\n\nExtra blank lines may be used (sparingly) to separate groups of\nrelated functions.  Blank lines may be omitted between a bunch of\nrelated one-liners (e.g. a set of dummy implementations).\n\nUse blank lines in functions, sparingly, to indicate logical sections.\n\nPython accepts the control-L (i.e. ^L) form feed character as\nwhitespace; many tools treat these characters as page separators, so\nyou may use them to separate pages of related sections of your file.\nNote, some editors and web-based code viewers may not recognize\ncontrol-L as a form feed and will show another glyph in its place."
+  },
+  {
+    "position": 4,
+    "page_id": "pep-0008-p16",
+    "char_offset": 1031,
+    "strategy": "A",
+    "chunk_id": "pep-0008-p16-c002",
+    "section": "Naming Conventions > Prescriptive: Naming Conventions > Designing for Inheritance",
+    "chunk_chars": 499,
+    "text": "implementation behind simple data attribute access\n  syntax.\n\n  Note 1: Try to keep the functional behavior side-effect free,\n  although side-effects such as caching are generally fine.\n\n  Note 2: Avoid using properties for computationally expensive\n  operations; the attribute notation makes the caller believe that\n  access is (relatively) cheap.\n\n- If your class is intended to be subclassed, and you have attributes\n  that you do not want subclasses to use, consider naming them with\n  double le"
+  },
+  {
+    "position": 4,
+    "page_id": "pep-0008-p16",
+    "char_offset": 1031,
+    "strategy": "B",
+    "chunk_id": "pep-0008-p16-c000",
+    "section": "Naming Conventions > Prescriptive: Naming Conventions > Designing for Inheritance",
+    "chunk_chars": 1086,
+    "text": "With this in mind, here are the Pythonic guidelines:\n\n- Public attributes should have no leading underscores.\n\n- If your public attribute name collides with a reserved keyword,\n  append a single trailing underscore to your attribute name.  This is\n  preferable to an abbreviation or corrupted spelling.  (However,\n  notwithstanding this rule, 'cls' is the preferred spelling for any\n  variable or argument which is known to be a class, especially the\n  first argument to a class method.)\n\n  Note 1: See the argument name recommendation above for class methods.\n\n- For simple public data attributes, it is best to expose just the\n  attribute name, without complicated accessor/mutator methods.  Keep\n  in mind that Python provides an easy path to future enhancement,\n  should you find that a simple data attribute needs to grow\n  functional behavior.  In that case, use properties to hide\n  functional implementation behind simple data attribute access\n  syntax.\n\n  Note 1: Try to keep the functional behavior side-effect free,\n  although side-effects such as caching are generally fine."
+  },
+  {
+    "position": 4,
+    "page_id": "pep-0008-p16",
+    "char_offset": 1031,
+    "strategy": "C",
+    "chunk_id": "pep-0008-p16-c000",
+    "section": "Naming Conventions > Prescriptive: Naming Conventions > Designing for Inheritance",
+    "chunk_chars": 1086,
+    "text": "With this in mind, here are the Pythonic guidelines:\n\n- Public attributes should have no leading underscores.\n\n- If your public attribute name collides with a reserved keyword,\n  append a single trailing underscore to your attribute name.  This is\n  preferable to an abbreviation or corrupted spelling.  (However,\n  notwithstanding this rule, 'cls' is the preferred spelling for any\n  variable or argument which is known to be a class, especially the\n  first argument to a class method.)\n\n  Note 1: See the argument name recommendation above for class methods.\n\n- For simple public data attributes, it is best to expose just the\n  attribute name, without complicated accessor/mutator methods.  Keep\n  in mind that Python provides an easy path to future enhancement,\n  should you find that a simple data attribute needs to grow\n  functional behavior.  In that case, use properties to hide\n  functional implementation behind simple data attribute access\n  syntax.\n\n  Note 1: Try to keep the functional behavior side-effect free,\n  although side-effects such as caching are generally fine."
+  },
+  {
+    "position": 5,
+    "page_id": "pep-0498-p01",
+    "char_offset": 1042,
+    "strategy": "A",
+    "chunk_id": "pep-0498-p01-c002",
+    "section": "Abstract",
+    "chunk_chars": 499,
+    "text": "with 'f', which\ncontains expressions inside braces. The expressions are replaced with\ntheir values. Some examples are::\n\n  >>> import datetime\n  >>> name = 'Fred'\n  >>> age = 50\n  >>> anniversary = datetime.date(1991, 10, 12)\n  >>> f'My name is {name}, my age next year is {age+1}, my anniversary is {anniversary:%A, %B %d, %Y}.'\n  'My name is Fred, my age next year is 51, my anniversary is Saturday, October 12, 1991.'\n  >>> f'He said his name is {name!r}.'\n  \"He said his name is 'Fred'.\"\n\nA simi"
+  },
+  {
+    "position": 5,
+    "page_id": "pep-0498-p01",
+    "char_offset": 1042,
+    "strategy": "B",
+    "chunk_id": "pep-0498-p01-c001",
+    "section": "Abstract",
+    "chunk_chars": 603,
+    "text": ">>> import datetime\n  >>> name = 'Fred'\n  >>> age = 50\n  >>> anniversary = datetime.date(1991, 10, 12)\n  >>> f'My name is {name}, my age next year is {age+1}, my anniversary is {anniversary:%A, %B %d, %Y}.'\n  'My name is Fred, my age next year is 51, my anniversary is Saturday, October 12, 1991.'\n  >>> f'He said his name is {name!r}.'\n  \"He said his name is 'Fred'.\"\n\nA similar feature was proposed in :pep:`215`. :pep:`215` proposed to support\na subset of Python expressions, and did not support the type-specific\nstring formatting (the ``__format__()`` method) which was introduced\nwith :pep:`3101`."
+  },
+  {
+    "position": 5,
+    "page_id": "pep-0498-p01",
+    "char_offset": 1042,
+    "strategy": "C",
+    "chunk_id": "pep-0498-p01-c001",
+    "section": "Abstract",
+    "chunk_chars": 603,
+    "text": ">>> import datetime\n  >>> name = 'Fred'\n  >>> age = 50\n  >>> anniversary = datetime.date(1991, 10, 12)\n  >>> f'My name is {name}, my age next year is {age+1}, my anniversary is {anniversary:%A, %B %d, %Y}.'\n  'My name is Fred, my age next year is 51, my anniversary is Saturday, October 12, 1991.'\n  >>> f'He said his name is {name!r}.'\n  \"He said his name is 'Fred'.\"\n\nA similar feature was proposed in :pep:`215`. :pep:`215` proposed to support\na subset of Python expressions, and did not support the type-specific\nstring formatting (the ``__format__()`` method) which was introduced\nwith :pep:`3101`."
+  },
+  {
+    "position": 6,
+    "page_id": "pep-0498-p12",
+    "char_offset": 919,
+    "strategy": "A",
+    "chunk_id": "pep-0498-p12-c001",
+    "section": "Examples from Python's source code",
+    "chunk_chars": 499,
+    "text": "join('--'+opt for opt in valid_opts)), file=sys.stderr)\n  print(f\"Usage: {sys.argv[0]} [{'|'.join('--'+opt for opt in valid_opts)}]\", file=sys.stderr)\n\nReferences\n==========\n\n.. [#] %-formatting\n       (https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)\n\n.. [#] str.format\n       (https://docs.python.org/3/library/string.html#formatstrings)\n\n.. [#] string.Template documentation\n       (https://docs.python.org/3/library/string.html#template-strings)\n\n.. [#] Formatting"
+  },
+  {
+    "position": 6,
+    "page_id": "pep-0498-p12",
+    "char_offset": 919,
+    "strategy": "B",
+    "chunk_id": "pep-0498-p12-c001",
+    "section": "References",
+    "chunk_chars": 1161,
+    "text": "References\n==========\n\n.. [#] %-formatting\n       (https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)\n\n.. [#] str.format\n       (https://docs.python.org/3/library/string.html#formatstrings)\n\n.. [#] string.Template documentation\n       (https://docs.python.org/3/library/string.html#template-strings)\n\n.. [#] Formatting using locals() and globals()\n       (https://mail.python.org/pipermail/python-ideas/2015-July/034671.html)\n\n.. [#] Avoid locals() and globals()\n       (https://mail.python.org/pipermail/python-ideas/2015-July/034701.html)\n\n.. [#] String literal description\n       (https://docs.python.org/3/reference/lexical_analysis.html#string-and-bytes-literals)\n\n.. [#] ast.parse() documentation\n       (https://docs.python.org/3/library/ast.html#ast.parse)\n\n.. [#] Start of python-ideas discussion\n       (https://mail.python.org/pipermail/python-ideas/2015-July/034657.html)\n\n.. [#] Wikipedia article on string interpolation\n       (https://en.wikipedia.org/wiki/String_interpolation)\n\n.. [#] Differences in str.format() and f-string expressions\n       (https://mail.python.org/pipermail/python-ideas/2015-July/034726.html)"
+  },
+  {
+    "position": 6,
+    "page_id": "pep-0498-p12",
+    "char_offset": 919,
+    "strategy": "C",
+    "chunk_id": "pep-0498-p12-c001",
+    "section": "References",
+    "chunk_chars": 1161,
+    "text": "References\n==========\n\n.. [#] %-formatting\n       (https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)\n\n.. [#] str.format\n       (https://docs.python.org/3/library/string.html#formatstrings)\n\n.. [#] string.Template documentation\n       (https://docs.python.org/3/library/string.html#template-strings)\n\n.. [#] Formatting using locals() and globals()\n       (https://mail.python.org/pipermail/python-ideas/2015-July/034671.html)\n\n.. [#] Avoid locals() and globals()\n       (https://mail.python.org/pipermail/python-ideas/2015-July/034701.html)\n\n.. [#] String literal description\n       (https://docs.python.org/3/reference/lexical_analysis.html#string-and-bytes-literals)\n\n.. [#] ast.parse() documentation\n       (https://docs.python.org/3/library/ast.html#ast.parse)\n\n.. [#] Start of python-ideas discussion\n       (https://mail.python.org/pipermail/python-ideas/2015-July/034657.html)\n\n.. [#] Wikipedia article on string interpolation\n       (https://en.wikipedia.org/wiki/String_interpolation)\n\n.. [#] Differences in str.format() and f-string expressions\n       (https://mail.python.org/pipermail/python-ideas/2015-July/034726.html)"
+  },
+  {
+    "position": 7,
+    "page_id": "pep-0557-p11",
+    "char_offset": 1010,
+    "strategy": "A",
+    "chunk_id": "pep-0557-p11-c002",
+    "section": "Specification > Module level helper functions",
+    "chunk_chars": 500,
+    "text": "cified on the call to ``replace`` so that they can be passed to\n  ``__init__`` and ``__post_init__``.\n\n  It is an error for ``changes`` to contain any fields that are\n  defined as having ``init=False``.  A ``ValueError`` will be raised\n  in this case.\n\n  Be forewarned about how ``init=False`` fields work during a call to\n  ``replace()``.  They are not copied from the source object, but\n  rather are initialized in ``__post_init__()``, if they're\n  initialized at all.  It is expected that ``init=F"
+  },
+  {
+    "position": 7,
+    "page_id": "pep-0557-p11",
+    "char_offset": 1010,
+    "strategy": "B",
+    "chunk_id": "pep-0557-p11-c000",
+    "section": "Specification > Module level helper functions",
+    "chunk_chars": 1147,
+    "text": "C = make_dataclass('C',\n                       [('x', int),\n                         'y',\n                        ('z', int, field(default=5))],\n                       namespace={'add_one': lambda self: self.x + 1})\n\n  Is equivalent to::\n\n    @dataclass\n    class C:\n        x: int\n        y: 'typing.Any'\n        z: int = 5\n\n        def add_one(self):\n            return self.x + 1\n\n- ``replace(instance, **changes)``: Creates a new object of the same\n  type of ``instance``, replacing fields with values from ``changes``.\n  If ``instance`` is not a Data Class, raises ``TypeError``.  If\n  values in ``changes`` do not specify fields, raises ``TypeError``.\n\n  The newly returned object is created by calling the ``__init__``\n  method of the Data Class.  This ensures that\n  ``__post_init__``, if present, is also called.\n\n  Init-only variables without default values, if any exist, must be\n  specified on the call to ``replace`` so that they can be passed to\n  ``__init__`` and ``__post_init__``.\n\n  It is an error for ``changes`` to contain any fields that are\n  defined as having ``init=False``.  A ``ValueError`` will be raised\n  in this case."
+  },
+  {
+    "position": 7,
+    "page_id": "pep-0557-p11",
+    "char_offset": 1010,
+    "strategy": "C",
+    "chunk_id": "pep-0557-p11-c000",
+    "section": "Specification > Module level helper functions",
+    "chunk_chars": 1147,
+    "text": "C = make_dataclass('C',\n                       [('x', int),\n                         'y',\n                        ('z', int, field(default=5))],\n                       namespace={'add_one': lambda self: self.x + 1})\n\n  Is equivalent to::\n\n    @dataclass\n    class C:\n        x: int\n        y: 'typing.Any'\n        z: int = 5\n\n        def add_one(self):\n            return self.x + 1\n\n- ``replace(instance, **changes)``: Creates a new object of the same\n  type of ``instance``, replacing fields with values from ``changes``.\n  If ``instance`` is not a Data Class, raises ``TypeError``.  If\n  values in ``changes`` do not specify fields, raises ``TypeError``.\n\n  The newly returned object is created by calling the ``__init__``\n  method of the Data Class.  This ensures that\n  ``__post_init__``, if present, is also called.\n\n  Init-only variables without default values, if any exist, must be\n  specified on the call to ``replace`` so that they can be passed to\n  ``__init__`` and ``__post_init__``.\n\n  It is an error for ``changes`` to contain any fields that are\n  defined as having ``init=False``.  A ``ValueError`` will be raised\n  in this case."
+  },
+  {
+    "position": 8,
+    "page_id": "pep-0572-p06",
+    "char_offset": 1021,
+    "strategy": "A",
+    "chunk_id": "pep-0572-p06-c002",
+    "section": "Syntax and semantics > Scope of the target",
+    "chunk_chars": 500,
+    "text": "for i, j in stuff]     # INVALID\n    [i for i, j in stuff if True or (j := 1)]  # INVALID\n\nFor the comprehension body (the part before the first \"for\" keyword) and the\nfilter expression (the part after \"if\" and before any nested \"for\"), this\nrestriction applies solely to target names that are also used as iteration\nvariables in the comprehension. Lambda expressions appearing in these\npositions introduce a new explicit function scope, and hence may use assignment\nexpressions with no additional re"
+  },
+  {
+    "position": 8,
+    "page_id": "pep-0572-p06",
+    "char_offset": 1021,
+    "strategy": "B",
+    "chunk_id": "pep-0572-p06-c001",
+    "section": "Syntax and semantics > Scope of the target",
+    "chunk_chars": 1052,
+    "text": "For the comprehension body (the part before the first \"for\" keyword) and the\nfilter expression (the part after \"if\" and before any nested \"for\"), this\nrestriction applies solely to target names that are also used as iteration\nvariables in the comprehension. Lambda expressions appearing in these\npositions introduce a new explicit function scope, and hence may use assignment\nexpressions with no additional restrictions.\n\nDue to design constraints in the reference implementation (the symbol table\nanalyser cannot easily detect when names are re-used between the leftmost\ncomprehension iterable expression and the rest of the comprehension), named\nexpressions are disallowed entirely as part of comprehension iterable\nexpressions (the part after each \"in\", and before any subsequent \"if\" or\n\"for\" keyword)::\n\n    [i+1 for i in (j := stuff)]                    # INVALID\n    [i+1 for i in range(2) for j in (k := stuff)]  # INVALID\n    [i+1 for i in [j for j in (k := stuff)]]       # INVALID\n    [i+1 for i in (lambda: (j := stuff))()]        # INVALID"
+  },
+  {
+    "position": 8,
+    "page_id": "pep-0572-p06",
+    "char_offset": 1021,
+    "strategy": "C",
+    "chunk_id": "pep-0572-p06-c001",
+    "section": "Syntax and semantics > Scope of the target",
+    "chunk_chars": 1052,
+    "text": "For the comprehension body (the part before the first \"for\" keyword) and the\nfilter expression (the part after \"if\" and before any nested \"for\"), this\nrestriction applies solely to target names that are also used as iteration\nvariables in the comprehension. Lambda expressions appearing in these\npositions introduce a new explicit function scope, and hence may use assignment\nexpressions with no additional restrictions.\n\nDue to design constraints in the reference implementation (the symbol table\nanalyser cannot easily detect when names are re-used between the leftmost\ncomprehension iterable expression and the rest of the comprehension), named\nexpressions are disallowed entirely as part of comprehension iterable\nexpressions (the part after each \"in\", and before any subsequent \"if\" or\n\"for\" keyword)::\n\n    [i+1 for i in (j := stuff)]                    # INVALID\n    [i+1 for i in range(2) for j in (k := stuff)]  # INVALID\n    [i+1 for i in [j for j in (k := stuff)]]       # INVALID\n    [i+1 for i in (lambda: (j := stuff))()]        # INVALID"
+  },
+  {
+    "position": 9,
+    "page_id": "pep-0572-p17",
+    "char_offset": 1041,
+    "strategy": "A",
+    "chunk_id": "pep-0572-p17-c002",
+    "section": "Frequently Raised Objections > Why not use a sublocal scope and prevent namespace pollution?",
+    "chunk_chars": 500,
+    "text": "dings, including that usage at class or module scope will\ncreate externally-visible names.  This is no different from ``for`` loops or\nother constructs, and can be solved the same way: ``del`` the name once it is\nno longer needed, or prefix it with an underscore.\n\n(The author wishes to thank Guido van Rossum and Christoph Groth for their\nsuggestions to move the proposal in this direction. [2]_)\n\nStyle guide recommendations\n===========================\n\nAs expression assignments can sometimes be u"
+  },
+  {
+    "position": 9,
+    "page_id": "pep-0572-p17",
+    "char_offset": 1041,
+    "strategy": "B",
+    "chunk_id": "pep-0572-p17-c001",
+    "section": "Frequently Raised Objections > Why not use a sublocal scope and prevent namespace pollution?",
+    "chunk_chars": 929,
+    "text": "Why not use a sublocal scope and prevent namespace pollution?\n-------------------------------------------------------------\n\nPrevious revisions of this proposal involved sublocal scope (restricted to a\nsingle statement), preventing name leakage and namespace pollution.  While a\ndefinite advantage in a number of situations, this increases complexity in\nmany others, and the costs are not justified by the benefits. In the interests\nof language simplicity, the name bindings created here are exactly equivalent\nto any other name bindings, including that usage at class or module scope will\ncreate externally-visible names.  This is no different from ``for`` loops or\nother constructs, and can be solved the same way: ``del`` the name once it is\nno longer needed, or prefix it with an underscore.\n\n(The author wishes to thank Guido van Rossum and Christoph Groth for their\nsuggestions to move the proposal in this direction. [2]_)"
+  },
+  {
+    "position": 9,
+    "page_id": "pep-0572-p17",
+    "char_offset": 1041,
+    "strategy": "C",
+    "chunk_id": "pep-0572-p17-c001",
+    "section": "Frequently Raised Objections > Why not use a sublocal scope and prevent namespace pollution?",
+    "chunk_chars": 929,
+    "text": "Why not use a sublocal scope and prevent namespace pollution?\n-------------------------------------------------------------\n\nPrevious revisions of this proposal involved sublocal scope (restricted to a\nsingle statement), preventing name leakage and namespace pollution.  While a\ndefinite advantage in a number of situations, this increases complexity in\nmany others, and the costs are not justified by the benefits. In the interests\nof language simplicity, the name bindings created here are exactly equivalent\nto any other name bindings, including that usage at class or module scope will\ncreate externally-visible names.  This is no different from ``for`` loops or\nother constructs, and can be solved the same way: ``del`` the name once it is\nno longer needed, or prefix it with an underscore.\n\n(The author wishes to thank Guido van Rossum and Christoph Groth for their\nsuggestions to move the proposal in this direction. [2]_)"
+  },
+  {
+    "position": 10,
+    "page_id": "pep-0634-p06",
+    "char_offset": 1031,
+    "strategy": "A",
+    "chunk_id": "pep-0634-p06-c002",
+    "section": "Syntax and Semantics > Patterns > Sequence Patterns",
+    "chunk_chars": 500,
+    "text": "not equal to the number of subpatterns.\n\nA variable-length sequence pattern fails if the length of the subject\nsequence is less than the number of non-star subpatterns.\n\nThe length of the subject sequence is obtained using the builtin\n``len()`` function (i.e., via the ``__len__`` protocol).  However, the\ninterpreter may cache this value in a similar manner as described for\nvalue patterns.\n\nA fixed-length sequence pattern matches the subpatterns to\ncorresponding items of the subject sequence, fro"
+  },
+  {
+    "position": 10,
+    "page_id": "pep-0634-p06",
+    "char_offset": 1031,
+    "strategy": "B",
+    "chunk_id": "pep-0634-p06-c000",
+    "section": "Syntax and Semantics > Patterns > Sequence Patterns",
+    "chunk_chars": 1068,
+    "text": "For a sequence pattern to succeed the subject must be a sequence,\nwhere being a sequence is defined as its class being one of the following:\n\n- a class that inherits from ``collections.abc.Sequence``\n- a Python class that has been registered as a ``collections.abc.Sequence``\n- a builtin class that has its ``Py_TPFLAGS_SEQUENCE`` bit set\n- a class that inherits from any of the above (including classes defined *before* a\n  parent's ``Sequence`` registration)\n\nThe following standard library classes will have their ``Py_TPFLAGS_SEQUENCE``\nbit set:\n\n- ``array.array``\n- ``collections.deque``\n- ``list``\n- ``memoryview``\n- ``range``\n- ``tuple``\n\n.. note::\n\n  Although ``str``, ``bytes``, and ``bytearray`` are usually\n  considered sequences, they are not included in the above list and do\n  not match sequence patterns.\n\nA fixed-length sequence pattern fails if the length of the subject\nsequence is not equal to the number of subpatterns.\n\nA variable-length sequence pattern fails if the length of the subject\nsequence is less than the number of non-star subpatterns."
+  },
+  {
+    "position": 10,
+    "page_id": "pep-0634-p06",
+    "char_offset": 1031,
+    "strategy": "C",
+    "chunk_id": "pep-0634-p06-c000",
+    "section": "Syntax and Semantics > Patterns > Sequence Patterns",
+    "chunk_chars": 1068,
+    "text": "For a sequence pattern to succeed the subject must be a sequence,\nwhere being a sequence is defined as its class being one of the following:\n\n- a class that inherits from ``collections.abc.Sequence``\n- a Python class that has been registered as a ``collections.abc.Sequence``\n- a builtin class that has its ``Py_TPFLAGS_SEQUENCE`` bit set\n- a class that inherits from any of the above (including classes defined *before* a\n  parent's ``Sequence`` registration)\n\nThe following standard library classes will have their ``Py_TPFLAGS_SEQUENCE``\nbit set:\n\n- ``array.array``\n- ``collections.deque``\n- ``list``\n- ``memoryview``\n- ``range``\n- ``tuple``\n\n.. note::\n\n  Although ``str``, ``bytes``, and ``bytearray`` are usually\n  considered sequences, they are not included in the above list and do\n  not match sequence patterns.\n\nA fixed-length sequence pattern fails if the length of the subject\nsequence is not equal to the number of subpatterns.\n\nA variable-length sequence pattern fails if the length of the subject\nsequence is less than the number of non-star subpatterns."
+  }
+]

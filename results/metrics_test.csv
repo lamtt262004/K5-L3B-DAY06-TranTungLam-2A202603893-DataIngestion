@@ -1,0 +1,7 @@
+﻿strategy,split,N,hit1,hit3,hit1_rate,hit3_rate,gold_page_in_top3,filter_compliance
+A,all,6,2,2,0.333,0.333,3,2/2
+A,test,6,2,2,0.333,0.333,3,2/2
+B,all,6,3,3,0.5,0.5,3,1/2
+B,test,6,3,3,0.5,0.5,3,1/2
+C,all,6,3,3,0.5,0.5,3,2/2
+C,test,6,3,3,0.5,0.5,3,2/2

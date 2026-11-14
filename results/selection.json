@@ -1,0 +1,31 @@
+{
+  "selected_at": "2026-11-14T10:50:55+07:00",
+  "rule": "max dev Evidence Hit@3 -> max dev Hit@1 -> fewer chunks",
+  "ranking": [
+    {
+      "strategy": "B",
+      "hit1": 14,
+      "hit3": 19,
+      "N": 22
+    },
+    {
+      "strategy": "C",
+      "hit1": 14,
+      "hit3": 19,
+      "N": 22
+    },
+    {
+      "strategy": "A",
+      "hit1": 9,
+      "hit3": 16,
+      "N": 22
+    }
+  ],
+  "selected": "B",
+  "frozen_config": {
+    "collection": "day6_B_structure1200",
+    "chunking": "structure",
+    "max_size": 1200,
+    "use_filter": false
+  }
+}

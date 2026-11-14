@@ -8,3 +8,6 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+
+# vector store (regenerable with: python -m src.run all)
+chroma_db/

@@ -1,0 +1,968 @@
+{
+  "corpus": "Python Enhancement Proposals (8 PEPs)",
+  "page_rule": "Sources are non-paginated reStructuredText. After normalization, each document is split in order at blank-line boundaries into units of >= 2000 chars; a final tail < 1500 chars is merged into the previous unit. Every unit therefore has >= 1500 normalized chars. The PEP preamble (header fields) is removed from text and kept as metadata. No duplication is used.",
+  "total_documents": 8,
+  "total_pages": 115,
+  "total_normalized_chars": 252339,
+  "min_page_chars": 1838,
+  "warnings": [],
+  "documents": [
+    {
+      "source_id": "pep-0001",
+      "title": "PEP Purpose and Guidelines",
+      "source_path_or_url": "https://github.com/python/peps/blob/2ace2311c6a460c71c92dc64046c6f299de2a3a7/peps/pep-0001.rst",
+      "local_path": "data/raw/pep-0001.rst",
+      "license_or_permission": "Public domain or CC0-1.0-Universal (statement in the document's Copyright section)",
+      "accessed_at": "2026-11-14",
+      "snapshot": "python/peps@2ace2311c6a460c71c92dc64046c6f299de2a3a7",
+      "sha256": "7f94574b563a9e3f59c25fe225e0b04d695cb82ad28e83256b76418f8b457adb",
+      "raw_chars": 41653,
+      "normalized_chars": 39888,
+      "pep_type": "Process",
+      "python_version": "n/a",
+      "status": "Active",
+      "created": "13-Jun-2000",
+      "pages": [
+        {
+          "page_id": "pep-0001-p01",
+          "page": 1,
+          "char_start": 0,
+          "char_end": 2175,
+          "chars": 2175
+        },
+        {
+          "page_id": "pep-0001-p02",
+          "page": 2,
+          "char_start": 2177,
+          "char_end": 4360,
+          "chars": 2183
+        },
+        {
+          "page_id": "pep-0001-p03",
+          "page": 3,
+          "char_start": 4362,
+          "char_end": 6481,
+          "chars": 2119
+        },
+        {
+          "page_id": "pep-0001-p04",
+          "page": 4,
+          "char_start": 6483,
+          "char_end": 8587,
+          "chars": 2104
+        },
+        {
+          "page_id": "pep-0001-p05",
+          "page": 5,
+          "char_start": 8589,
+          "char_end": 11097,
+          "chars": 2508
+        },
+        {
+          "page_id": "pep-0001-p06",
+          "page": 6,
+          "char_start": 11099,
+          "char_end": 13327,
+          "chars": 2228
+        },
+        {
+          "page_id": "pep-0001-p07",
+          "page": 7,
+          "char_start": 13329,
+          "char_end": 15437,
+          "chars": 2108
+        },
+        {
+          "page_id": "pep-0001-p08",
+          "page": 8,
+          "char_start": 15439,
+          "char_end": 17634,
+          "chars": 2195
+        },
+        {
+          "page_id": "pep-0001-p09",
+          "page": 9,
+          "char_start": 17636,
+          "char_end": 19739,
+          "chars": 2103
+        },
+        {
+          "page_id": "pep-0001-p10",
+          "page": 10,
+          "char_start": 19741,
+          "char_end": 21745,
+          "chars": 2004
+        },
+        {
+          "page_id": "pep-0001-p11",
+          "page": 11,
+          "char_start": 21747,
+          "char_end": 23963,
+          "chars": 2216
+        },
+        {
+          "page_id": "pep-0001-p12",
+          "page": 12,
+          "char_start": 23965,
+          "char_end": 25975,
+          "chars": 2010
+        },
+        {
+          "page_id": "pep-0001-p13",
+          "page": 13,
+          "char_start": 25977,
+          "char_end": 28073,
+          "chars": 2096
+        },
+        {
+          "page_id": "pep-0001-p14",
+          "page": 14,
+          "char_start": 28075,
+          "char_end": 30643,
+          "chars": 2568
+        },
+        {
+          "page_id": "pep-0001-p15",
+          "page": 15,
+          "char_start": 30645,
+          "char_end": 32757,
+          "chars": 2112
+        },
+        {
+          "page_id": "pep-0001-p16",
+          "page": 16,
+          "char_start": 32759,
+          "char_end": 34884,
+          "chars": 2125
+        },
+        {
+          "page_id": "pep-0001-p17",
+          "page": 17,
+          "char_start": 34886,
+          "char_end": 37035,
+          "chars": 2149
+        },
+        {
+          "page_id": "pep-0001-p18",
+          "page": 18,
+          "char_start": 37037,
+          "char_end": 39888,
+          "chars": 2851
+        }
+      ],
+      "page_count": 18
+    },
+    {
+      "source_id": "pep-0008",
+      "title": "Style Guide for Python Code",
+      "source_path_or_url": "https://github.com/python/peps/blob/2ace2311c6a460c71c92dc64046c6f299de2a3a7/peps/pep-0008.rst",
+      "local_path": "data/raw/pep-0008.rst",
+      "license_or_permission": "Public domain (statement in the document's Copyright section)",
+      "accessed_at": "2026-11-14",
+      "snapshot": "python/peps@2ace2311c6a460c71c92dc64046c6f299de2a3a7",
+      "sha256": "6028935c6cb2c674d5f4d512c7ba6ce2923713b1c47ce1a78adc690db817fc5d",
+      "raw_chars": 50782,
+      "normalized_chars": 47687,
+      "pep_type": "Process",
+      "python_version": "n/a",
+      "status": "Active",
+      "created": "05-Jul-2001",
+      "pages": [
+        {
+          "page_id": "pep-0008-p01",
+          "page": 1,
+          "char_start": 0,
+          "char_end": 2028,
+          "chars": 2028
+        },
+        {
+          "page_id": "pep-0008-p02",
+          "page": 2,
+          "char_start": 2030,
+          "char_end": 4528,
+          "chars": 2498
+        },
+        {
+          "page_id": "pep-0008-p03",
+          "page": 3,
+          "char_start": 4530,
+          "char_end": 6710,
+          "chars": 2180
+        },
+        {
+          "page_id": "pep-0008-p04",
+          "page": 4,
+          "char_start": 6712,
+          "char_end": 8729,
+          "chars": 2017
+        },
+        {
+          "page_id": "pep-0008-p05",
+          "page": 5,
+          "char_start": 8731,
+          "char_end": 10760,
+          "chars": 2029
+        },
+        {
+          "page_id": "pep-0008-p06",
+          "page": 6,
+          "char_start": 10762,
+          "char_end": 13282,
+          "chars": 2520
+        },
+        {
+          "page_id": "pep-0008-p07",
+          "page": 7,
+          "char_start": 13284,
+          "char_end": 15429,
+          "chars": 2145
+        },
+        {
+          "page_id": "pep-0008-p08",
+          "page": 8,
+          "char_start": 15431,
+          "char_end": 17442,
+          "chars": 2011
+        },
+        {
+          "page_id": "pep-0008-p09",
+          "page": 9,
+          "char_start": 17444,
+          "char_end": 19477,
+          "chars": 2033
+        },
+        {
+          "page_id": "pep-0008-p10",
+          "page": 10,
+          "char_start": 19479,
+          "char_end": 21509,
+          "chars": 2030
+        },
+        {
+          "page_id": "pep-0008-p11",
+          "page": 11,
+          "char_start": 21511,
+          "char_end": 23546,
+          "chars": 2035
+        },
+        {
+          "page_id": "pep-0008-p12",
+          "page": 12,
+          "char_start": 23548,
+          "char_end": 25548,
+          "chars": 2000
+        },
+        {
+          "page_id": "pep-0008-p13",
+          "page": 13,
+          "char_start": 25550,
+          "char_end": 27585,
+          "chars": 2035
+        },
+        {
+          "page_id": "pep-0008-p14",
+          "page": 14,
+          "char_start": 27587,
+          "char_end": 29629,
+          "chars": 2042
+        },
+        {
+          "page_id": "pep-0008-p15",
+          "page": 15,
+          "char_start": 29631,
+          "char_end": 31703,
+          "chars": 2072
+        },
+        {
+          "page_id": "pep-0008-p16",
+          "page": 16,
+          "char_start": 31705,
+          "char_end": 33768,
+          "chars": 2063
+        },
+        {
+          "page_id": "pep-0008-p17",
+          "page": 17,
+          "char_start": 33770,
+          "char_end": 35970,
+          "chars": 2200
+        },
+        {
+          "page_id": "pep-0008-p18",
+          "page": 18,
+          "char_start": 35972,
+          "char_end": 38078,
+          "chars": 2106
+        },
+        {
+          "page_id": "pep-0008-p19",
+          "page": 19,
+          "char_start": 38080,
+          "char_end": 40206,
+          "chars": 2126
+        },
+        {
+          "page_id": "pep-0008-p20",
+          "page": 20,
+          "char_start": 40208,
+          "char_end": 42215,
+          "chars": 2007
+        },
+        {
+          "page_id": "pep-0008-p21",
+          "page": 21,
+          "char_start": 42217,
+          "char_end": 44348,
+          "chars": 2131
+        },
+        {
+          "page_id": "pep-0008-p22",
+          "page": 22,
+          "char_start": 44350,
+          "char_end": 47687,
+          "chars": 3337
+        }
+      ],
+      "page_count": 22
+    },
+    {
+      "source_id": "pep-0257",
+      "title": "Docstring Conventions",
+      "source_path_or_url": "https://github.com/python/peps/blob/2ace2311c6a460c71c92dc64046c6f299de2a3a7/peps/pep-0257.rst",
+      "local_path": "data/raw/pep-0257.rst",
+      "license_or_permission": "Public domain (statement in the document's Copyright section)",
+      "accessed_at": "2026-11-14",
+      "snapshot": "python/peps@2ace2311c6a460c71c92dc64046c6f299de2a3a7",
+      "sha256": "7db41c5aaea3bfde0463307c72b38d735dc604491cadd059d7f9fe94b8142c0e",
+      "raw_chars": 10581,
+      "normalized_chars": 10211,
+      "pep_type": "Informational",
+      "python_version": "n/a",
+      "status": "Active",
+      "created": "29-May-2001",
+      "pages": [
+        {
+          "page_id": "pep-0257-p01",
+          "page": 1,
+          "char_start": 0,
+          "char_end": 2049,
+          "chars": 2049
+        },
+        {
+          "page_id": "pep-0257-p02",
+          "page": 2,
+          "char_start": 2051,
+          "char_end": 4396,
+          "chars": 2345
+        },
+        {
+          "page_id": "pep-0257-p03",
+          "page": 3,
+          "char_start": 4398,
+          "char_end": 6795,
+          "chars": 2397
+        },
+        {
+          "page_id": "pep-0257-p04",
+          "page": 4,
+          "char_start": 6797,
+          "char_end": 10211,
+          "chars": 3414
+        }
+      ],
+      "page_count": 4
+    },
+    {
+      "source_id": "pep-0498",
+      "title": "Literal String Interpolation",
+      "source_path_or_url": "https://github.com/python/peps/blob/2ace2311c6a460c71c92dc64046c6f299de2a3a7/peps/pep-0498.rst",
+      "local_path": "data/raw/pep-0498.rst",
+      "license_or_permission": "Public domain (statement in the document's Copyright section)",
+      "accessed_at": "2026-11-14",
+      "snapshot": "python/peps@2ace2311c6a460c71c92dc64046c6f299de2a3a7",
+      "sha256": "a3eb06e347f3bb39eeb7658b9339241d9cdd825b7c59876f372fea84376dc4a6",
+      "raw_chars": 25103,
+      "normalized_chars": 24775,
+      "pep_type": "Standards Track",
+      "python_version": "3.6",
+      "status": "Final",
+      "created": "01-Aug-2015",
+      "pages": [
+        {
+          "page_id": "pep-0498-p01",
+          "page": 1,
+          "char_start": 0,
+          "char_end": 2085,
+          "chars": 2085
+        },
+        {
+          "page_id": "pep-0498-p02",
+          "page": 2,
+          "char_start": 2087,
+          "char_end": 4152,
+          "chars": 2065
+        },
+        {
+          "page_id": "pep-0498-p03",
+          "page": 3,
+          "char_start": 4154,
+          "char_end": 6219,
+          "chars": 2065
+        },
+        {
+          "page_id": "pep-0498-p04",
+          "page": 4,
+          "char_start": 6221,
+          "char_end": 8272,
+          "chars": 2051
+        },
+        {
+          "page_id": "pep-0498-p05",
+          "page": 5,
+          "char_start": 8274,
+          "char_end": 10452,
+          "chars": 2178
+        },
+        {
+          "page_id": "pep-0498-p06",
+          "page": 6,
+          "char_start": 10454,
+          "char_end": 12628,
+          "chars": 2174
+        },
+        {
+          "page_id": "pep-0498-p07",
+          "page": 7,
+          "char_start": 12630,
+          "char_end": 14719,
+          "chars": 2089
+        },
+        {
+          "page_id": "pep-0498-p08",
+          "page": 8,
+          "char_start": 14721,
+          "char_end": 16891,
+          "chars": 2170
+        },
+        {
+          "page_id": "pep-0498-p09",
+          "page": 9,
+          "char_start": 16893,
+          "char_end": 18923,
+          "chars": 2030
+        },
+        {
+          "page_id": "pep-0498-p10",
+          "page": 10,
+          "char_start": 18925,
+          "char_end": 20926,
+          "chars": 2001
+        },
+        {
+          "page_id": "pep-0498-p11",
+          "page": 11,
+          "char_start": 20928,
+          "char_end": 22935,
+          "chars": 2007
+        },
+        {
+          "page_id": "pep-0498-p12",
+          "page": 12,
+          "char_start": 22937,
+          "char_end": 24775,
+          "chars": 1838
+        }
+      ],
+      "page_count": 12
+    },
+    {
+      "source_id": "pep-0557",
+      "title": "Data Classes",
+      "source_path_or_url": "https://github.com/python/peps/blob/2ace2311c6a460c71c92dc64046c6f299de2a3a7/peps/pep-0557.rst",
+      "local_path": "data/raw/pep-0557.rst",
+      "license_or_permission": "Public domain (statement in the document's Copyright section)",
+      "accessed_at": "2026-11-14",
+      "snapshot": "python/peps@2ace2311c6a460c71c92dc64046c6f299de2a3a7",
+      "sha256": "5f616e7d2fb9a5632fb2c9881c0622d63920a78a4c19540405f4f5119e4bad12",
+      "raw_chars": 36434,
+      "normalized_chars": 36095,
+      "pep_type": "Standards Track",
+      "python_version": "3.7",
+      "status": "Final",
+      "created": "02-Jun-2017",
+      "pages": [
+        {
+          "page_id": "pep-0557-p01",
+          "page": 1,
+          "char_start": 0,
+          "char_end": 3357,
+          "chars": 3357
+        },
+        {
+          "page_id": "pep-0557-p02",
+          "page": 2,
+          "char_start": 3359,
+          "char_end": 5404,
+          "chars": 2045
+        },
+        {
+          "page_id": "pep-0557-p03",
+          "page": 3,
+          "char_start": 5406,
+          "char_end": 7703,
+          "chars": 2297
+        },
+        {
+          "page_id": "pep-0557-p04",
+          "page": 4,
+          "char_start": 7705,
+          "char_end": 9765,
+          "chars": 2060
+        },
+        {
+          "page_id": "pep-0557-p05",
+          "page": 5,
+          "char_start": 9767,
+          "char_end": 11860,
+          "chars": 2093
+        },
+        {
+          "page_id": "pep-0557-p06",
+          "page": 6,
+          "char_start": 11862,
+          "char_end": 14101,
+          "chars": 2239
+        },
+        {
+          "page_id": "pep-0557-p07",
+          "page": 7,
+          "char_start": 14103,
+          "char_end": 16270,
+          "chars": 2167
+        },
+        {
+          "page_id": "pep-0557-p08",
+          "page": 8,
+          "char_start": 16272,
+          "char_end": 18486,
+          "chars": 2214
+        },
+        {
+          "page_id": "pep-0557-p09",
+          "page": 9,
+          "char_start": 18488,
+          "char_end": 20884,
+          "chars": 2396
+        },
+        {
+          "page_id": "pep-0557-p10",
+          "page": 10,
+          "char_start": 20886,
+          "char_end": 23314,
+          "chars": 2428
+        },
+        {
+          "page_id": "pep-0557-p11",
+          "page": 11,
+          "char_start": 23316,
+          "char_end": 25336,
+          "chars": 2020
+        },
+        {
+          "page_id": "pep-0557-p12",
+          "page": 12,
+          "char_start": 25338,
+          "char_end": 27372,
+          "chars": 2034
+        },
+        {
+          "page_id": "pep-0557-p13",
+          "page": 13,
+          "char_start": 27374,
+          "char_end": 29916,
+          "chars": 2542
+        },
+        {
+          "page_id": "pep-0557-p14",
+          "page": 14,
+          "char_start": 29918,
+          "char_end": 31932,
+          "chars": 2014
+        },
+        {
+          "page_id": "pep-0557-p15",
+          "page": 15,
+          "char_start": 31934,
+          "char_end": 33984,
+          "chars": 2050
+        },
+        {
+          "page_id": "pep-0557-p16",
+          "page": 16,
+          "char_start": 33986,
+          "char_end": 36095,
+          "chars": 2109
+        }
+      ],
+      "page_count": 16
+    },
+    {
+      "source_id": "pep-0572",
+      "title": "Assignment Expressions",
+      "source_path_or_url": "https://github.com/python/peps/blob/2ace2311c6a460c71c92dc64046c6f299de2a3a7/peps/pep-0572.rst",
+      "local_path": "data/raw/pep-0572.rst",
+      "license_or_permission": "Public domain (statement in the document's Copyright section)",
+      "accessed_at": "2026-11-14",
+      "snapshot": "python/peps@2ace2311c6a460c71c92dc64046c6f299de2a3a7",
+      "sha256": "abf5401ec523a03d59a6f3173842784f426bfd49d8b0a87a512646557bcef8b1",
+      "raw_chars": 47028,
+      "normalized_chars": 46553,
+      "pep_type": "Standards Track",
+      "python_version": "3.8",
+      "status": "Final",
+      "created": "28-Feb-2018",
+      "pages": [
+        {
+          "page_id": "pep-0572-p01",
+          "page": 1,
+          "char_start": 0,
+          "char_end": 2136,
+          "chars": 2136
+        },
+        {
+          "page_id": "pep-0572-p02",
+          "page": 2,
+          "char_start": 2138,
+          "char_end": 4154,
+          "chars": 2016
+        },
+        {
+          "page_id": "pep-0572-p03",
+          "page": 3,
+          "char_start": 4156,
+          "char_end": 6257,
+          "chars": 2101
+        },
+        {
+          "page_id": "pep-0572-p04",
+          "page": 4,
+          "char_start": 6259,
+          "char_end": 8455,
+          "chars": 2196
+        },
+        {
+          "page_id": "pep-0572-p05",
+          "page": 5,
+          "char_start": 8457,
+          "char_end": 10485,
+          "chars": 2028
+        },
+        {
+          "page_id": "pep-0572-p06",
+          "page": 6,
+          "char_start": 10487,
+          "char_end": 12530,
+          "chars": 2043
+        },
+        {
+          "page_id": "pep-0572-p07",
+          "page": 7,
+          "char_start": 12532,
+          "char_end": 14688,
+          "chars": 2156
+        },
+        {
+          "page_id": "pep-0572-p08",
+          "page": 8,
+          "char_start": 14690,
+          "char_end": 16807,
+          "chars": 2117
+        },
+        {
+          "page_id": "pep-0572-p09",
+          "page": 9,
+          "char_start": 16809,
+          "char_end": 18893,
+          "chars": 2084
+        },
+        {
+          "page_id": "pep-0572-p10",
+          "page": 10,
+          "char_start": 18895,
+          "char_end": 21009,
+          "chars": 2114
+        },
+        {
+          "page_id": "pep-0572-p11",
+          "page": 11,
+          "char_start": 21011,
+          "char_end": 23042,
+          "chars": 2031
+        },
+        {
+          "page_id": "pep-0572-p12",
+          "page": 12,
+          "char_start": 23044,
+          "char_end": 25087,
+          "chars": 2043
+        },
+        {
+          "page_id": "pep-0572-p13",
+          "page": 13,
+          "char_start": 25089,
+          "char_end": 27099,
+          "chars": 2010
+        },
+        {
+          "page_id": "pep-0572-p14",
+          "page": 14,
+          "char_start": 27101,
+          "char_end": 29164,
+          "chars": 2063
+        },
+        {
+          "page_id": "pep-0572-p15",
+          "page": 15,
+          "char_start": 29166,
+          "char_end": 31225,
+          "chars": 2059
+        },
+        {
+          "page_id": "pep-0572-p16",
+          "page": 16,
+          "char_start": 31227,
+          "char_end": 33531,
+          "chars": 2304
+        },
+        {
+          "page_id": "pep-0572-p17",
+          "page": 17,
+          "char_start": 33533,
+          "char_end": 35615,
+          "chars": 2082
+        },
+        {
+          "page_id": "pep-0572-p18",
+          "page": 18,
+          "char_start": 35617,
+          "char_end": 37640,
+          "chars": 2023
+        },
+        {
+          "page_id": "pep-0572-p19",
+          "page": 19,
+          "char_start": 37642,
+          "char_end": 39676,
+          "chars": 2034
+        },
+        {
+          "page_id": "pep-0572-p20",
+          "page": 20,
+          "char_start": 39678,
+          "char_end": 41697,
+          "chars": 2019
+        },
+        {
+          "page_id": "pep-0572-p21",
+          "page": 21,
+          "char_start": 41699,
+          "char_end": 43738,
+          "chars": 2039
+        },
+        {
+          "page_id": "pep-0572-p22",
+          "page": 22,
+          "char_start": 43740,
+          "char_end": 46553,
+          "chars": 2813
+        }
+      ],
+      "page_count": 22
+    },
+    {
+      "source_id": "pep-0634",
+      "title": "Structural Pattern Matching: Specification",
+      "source_path_or_url": "https://github.com/python/peps/blob/2ace2311c6a460c71c92dc64046c6f299de2a3a7/peps/pep-0634.rst",
+      "local_path": "data/raw/pep-0634.rst",
+      "license_or_permission": "Public domain or CC0-1.0-Universal (statement in the document's Copyright section)",
+      "accessed_at": "2026-11-14",
+      "snapshot": "python/peps@2ace2311c6a460c71c92dc64046c6f299de2a3a7",
+      "sha256": "352927baffdbb0fdaba34cf059e95fe2a464a604fdba167a41c6257c90e10e5e",
+      "raw_chars": 23168,
+      "normalized_chars": 22483,
+      "pep_type": "Standards Track",
+      "python_version": "3.10",
+      "status": "Final",
+      "created": "12-Sep-2020",
+      "pages": [
+        {
+          "page_id": "pep-0634-p01",
+          "page": 1,
+          "char_start": 0,
+          "char_end": 2038,
+          "chars": 2038
+        },
+        {
+          "page_id": "pep-0634-p02",
+          "page": 2,
+          "char_start": 2040,
+          "char_end": 4506,
+          "chars": 2466
+        },
+        {
+          "page_id": "pep-0634-p03",
+          "page": 3,
+          "char_start": 4508,
+          "char_end": 6668,
+          "chars": 2160
+        },
+        {
+          "page_id": "pep-0634-p04",
+          "page": 4,
+          "char_start": 6670,
+          "char_end": 8791,
+          "chars": 2121
+        },
+        {
+          "page_id": "pep-0634-p05",
+          "page": 5,
+          "char_start": 8793,
+          "char_end": 10882,
+          "chars": 2089
+        },
+        {
+          "page_id": "pep-0634-p06",
+          "page": 6,
+          "char_start": 10884,
+          "char_end": 12946,
+          "chars": 2062
+        },
+        {
+          "page_id": "pep-0634-p07",
+          "page": 7,
+          "char_start": 12948,
+          "char_end": 15023,
+          "chars": 2075
+        },
+        {
+          "page_id": "pep-0634-p08",
+          "page": 8,
+          "char_start": 15025,
+          "char_end": 17453,
+          "chars": 2428
+        },
+        {
+          "page_id": "pep-0634-p09",
+          "page": 9,
+          "char_start": 17455,
+          "char_end": 19710,
+          "chars": 2255
+        },
+        {
+          "page_id": "pep-0634-p10",
+          "page": 10,
+          "char_start": 19712,
+          "char_end": 22483,
+          "chars": 2771
+        }
+      ],
+      "page_count": 10
+    },
+    {
+      "source_id": "pep-0636",
+      "title": "Structural Pattern Matching: Tutorial",
+      "source_path_or_url": "https://github.com/python/peps/blob/2ace2311c6a460c71c92dc64046c6f299de2a3a7/peps/pep-0636.rst",
+      "local_path": "data/raw/pep-0636.rst",
+      "license_or_permission": "Public domain or CC0-1.0-Universal (statement in the document's Copyright section)",
+      "accessed_at": "2026-11-14",
+      "snapshot": "python/peps@2ace2311c6a460c71c92dc64046c6f299de2a3a7",
+      "sha256": "9142442d0212ee6deb8b0ce9a2103c9804b7e77678236d2db97697738b47a262",
+      "raw_chars": 25325,
+      "normalized_chars": 24861,
+      "pep_type": "Informational",
+      "python_version": "3.10",
+      "status": "Final",
+      "created": "12-Sep-2020",
+      "pages": [
+        {
+          "page_id": "pep-0636-p01",
+          "page": 1,
+          "char_start": 0,
+          "char_end": 2037,
+          "chars": 2037
+        },
+        {
+          "page_id": "pep-0636-p02",
+          "page": 2,
+          "char_start": 2039,
+          "char_end": 4405,
+          "chars": 2366
+        },
+        {
+          "page_id": "pep-0636-p03",
+          "page": 3,
+          "char_start": 4407,
+          "char_end": 6436,
+          "chars": 2029
+        },
+        {
+          "page_id": "pep-0636-p04",
+          "page": 4,
+          "char_start": 6438,
+          "char_end": 8526,
+          "chars": 2088
+        },
+        {
+          "page_id": "pep-0636-p05",
+          "page": 5,
+          "char_start": 8528,
+          "char_end": 10711,
+          "chars": 2183
+        },
+        {
+          "page_id": "pep-0636-p06",
+          "page": 6,
+          "char_start": 10713,
+          "char_end": 13020,
+          "chars": 2307
+        },
+        {
+          "page_id": "pep-0636-p07",
+          "page": 7,
+          "char_start": 13022,
+          "char_end": 15113,
+          "chars": 2091
+        },
+        {
+          "page_id": "pep-0636-p08",
+          "page": 8,
+          "char_start": 15115,
+          "char_end": 17240,
+          "chars": 2125
+        },
+        {
+          "page_id": "pep-0636-p09",
+          "page": 9,
+          "char_start": 17242,
+          "char_end": 19493,
+          "chars": 2251
+        },
+        {
+          "page_id": "pep-0636-p10",
+          "page": 10,
+          "char_start": 19495,
+          "char_end": 21495,
+          "chars": 2000
+        },
+        {
+          "page_id": "pep-0636-p11",
+          "page": 11,
+          "char_start": 21497,
+          "char_end": 24861,
+          "chars": 3364
+        }
+      ],
+      "page_count": 11
+    }
+  ]
+}

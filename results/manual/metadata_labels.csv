@@ -1,0 +1,55 @@
+﻿strategy,question_id,rank,chunk_id,document_id,source,page,pep_type,python_version,section,text_matches_source_page,source_page_ok,filter_fields_ok,section_title_exists,chunk_spans_new_heading,filter_applied,complete_and_correct,note
+A,t01,1,pep-0008-p15-c001,pep-0008,data/raw/pep-0008.rst,15,Process,n/a,Naming Conventions > Prescriptive: Naming Conventions > Method Names and Instance Variables,True,True,True,True,True,null,True,section = mục tại điểm bắt đầu chunk; chunk chứa thêm heading mục khác nên section chỉ mô tả một phần nội dung
+A,t01,2,pep-0008-p13-c003,pep-0008,data/raw/pep-0008.rst,13,Process,n/a,Naming Conventions > Prescriptive: Naming Conventions > Package and Module Names,True,True,True,True,True,null,True,section = mục tại điểm bắt đầu chunk; chunk chứa thêm heading mục khác nên section chỉ mô tả một phần nội dung
+A,t01,3,pep-0008-p13-c002,pep-0008,data/raw/pep-0008.rst,13,Process,n/a,Naming Conventions > Prescriptive: Naming Conventions > Names to Avoid,True,True,True,True,True,null,True,section = mục tại điểm bắt đầu chunk; chunk chứa thêm heading mục khác nên section chỉ mô tả một phần nội dung
+A,t02,1,pep-0572-p16-c002,pep-0572,data/raw/pep-0572.rst,16,Standards Track,3.8,Rejected alternative proposals > Allowing commas to the right,True,True,True,True,True,null,True,section = mục tại điểm bắt đầu chunk; chunk chứa thêm heading mục khác nên section chỉ mô tả một phần nội dung
+A,t02,2,pep-0572-p15-c003,pep-0572,data/raw/pep-0572.rst,15,Standards Track,3.8,Rejected alternative proposals > Special-casing comprehensions,True,True,True,True,True,null,True,section = mục tại điểm bắt đầu chunk; chunk chứa thêm heading mục khác nên section chỉ mô tả một phần nội dung
+A,t02,3,pep-0572-p01-c000,pep-0572,data/raw/pep-0572.rst,1,Standards Track,3.8,Abstract,True,True,True,True,False,null,True,
+A,t03,1,pep-0498-p02-c004,pep-0498,data/raw/pep-0498.rst,2,Standards Track,3.6,Rationale,True,True,True,True,False,null,True,
+A,t03,2,pep-0498-p07-c001,pep-0498,data/raw/pep-0498.rst,7,Standards Track,3.6,Specification > Concatenating strings,True,True,True,True,True,null,True,section = mục tại điểm bắt đầu chunk; chunk chứa thêm heading mục khác nên section chỉ mô tả một phần nội dung
+A,t03,3,pep-0498-p01-c004,pep-0498,data/raw/pep-0498.rst,1,Standards Track,3.6,Rationale,True,True,True,True,False,null,True,
+A,t04,1,pep-0257-p01-c002,pep-0257,data/raw/pep-0257.rst,1,Informational,n/a,Specification,True,True,True,True,True,null,True,section = mục tại điểm bắt đầu chunk; chunk chứa thêm heading mục khác nên section chỉ mô tả một phần nội dung
+A,t04,2,pep-0008-p11-c002,pep-0008,data/raw/pep-0008.rst,11,Process,n/a,Comments > Documentation Strings,True,True,True,True,False,null,True,
+A,t04,3,pep-0257-p04-c007,pep-0257,data/raw/pep-0257.rst,4,Informational,n/a,Copyright,True,True,True,True,True,null,True,section = mục tại điểm bắt đầu chunk; chunk chứa thêm heading mục khác nên section chỉ mô tả một phần nội dung
+A,t05,1,pep-0636-p01-c001,pep-0636,data/raw/pep-0636.rst,1,Informational,3.10,Abstract,True,True,True,True,True,null,True,section = mục tại điểm bắt đầu chunk; chunk chứa thêm heading mục khác nên section chỉ mô tả một phần nội dung
+A,t05,2,pep-0636-p04-c004,pep-0636,data/raw/pep-0636.rst,4,Informational,3.10,Tutorial > Or patterns,True,True,True,True,False,null,True,
+A,t05,3,pep-0636-p02-c002,pep-0636,data/raw/pep-0636.rst,2,Informational,3.10,Tutorial > Matching sequences,True,True,True,True,True,null,True,section = mục tại điểm bắt đầu chunk; chunk chứa thêm heading mục khác nên section chỉ mô tả một phần nội dung
+A,t06,1,pep-0634-p03-c001,pep-0634,data/raw/pep-0634.rst,3,Standards Track,3.10,Syntax and Semantics > The Match Statement > Guards,True,True,True,True,True,null,True,section = mục tại điểm bắt đầu chunk; chunk chứa thêm heading mục khác nên section chỉ mô tả một phần nội dung
+A,t06,2,pep-0634-p03-c000,pep-0634,data/raw/pep-0634.rst,3,Standards Track,3.10,Syntax and Semantics > The Match Statement > Match Semantics,True,True,True,True,True,null,True,section = mục tại điểm bắt đầu chunk; chunk chứa thêm heading mục khác nên section chỉ mô tả một phần nội dung
+A,t06,3,pep-0634-p09-c003,pep-0634,data/raw/pep-0634.rst,9,Standards Track,3.10,Side Effects and Undefined Behavior,True,True,True,True,True,null,True,section = mục tại điểm bắt đầu chunk; chunk chứa thêm heading mục khác nên section chỉ mô tả một phần nội dung
+B,t01,1,pep-0008-p15-c001,pep-0008,data/raw/pep-0008.rst,15,Process,n/a,Naming Conventions > Prescriptive: Naming Conventions > Constants,True,True,True,True,False,null,True,
+B,t01,2,pep-0008-p13-c003,pep-0008,data/raw/pep-0008.rst,13,Process,n/a,Naming Conventions > Prescriptive: Naming Conventions > Package and Module Names,True,True,True,True,False,null,True,
+B,t01,3,pep-0008-p14-c002,pep-0008,data/raw/pep-0008.rst,14,Process,n/a,Naming Conventions > Prescriptive: Naming Conventions > Global Variable Names,True,True,True,True,False,null,True,
+B,t02,1,pep-0572-p16-c001,pep-0572,data/raw/pep-0572.rst,16,Standards Track,3.8,Rejected alternative proposals > Allowing commas to the right,True,True,True,True,False,null,True,
+B,t02,2,pep-0572-p16-c000,pep-0572,data/raw/pep-0572.rst,16,Standards Track,3.8,Rejected alternative proposals > Lowering operator precedence,True,True,True,True,False,null,True,
+B,t02,3,pep-0572-p15-c002,pep-0572,data/raw/pep-0572.rst,15,Standards Track,3.8,Rejected alternative proposals > Lowering operator precedence,True,True,True,True,False,null,True,
+B,t03,1,pep-0498-p02-c001,pep-0498,data/raw/pep-0498.rst,2,Standards Track,3.6,Rationale,True,True,True,True,False,null,True,
+B,t03,2,pep-0498-p03-c000,pep-0498,data/raw/pep-0498.rst,3,Standards Track,3.6,Rationale,True,True,True,True,False,null,True,
+B,t03,3,pep-0498-p05-c000,pep-0498,data/raw/pep-0498.rst,5,Standards Track,3.6,Specification,True,True,True,True,False,null,True,
+B,t04,1,pep-0257-p03-c001,pep-0257,data/raw/pep-0257.rst,3,Informational,n/a,Specification > Multi-line Docstrings,True,True,True,True,False,null,True,
+B,t04,2,pep-0257-p01-c002,pep-0257,data/raw/pep-0257.rst,1,Informational,n/a,Specification,True,True,True,True,False,null,True,
+B,t04,3,pep-0008-p11-c002,pep-0008,data/raw/pep-0008.rst,11,Process,n/a,Comments > Documentation Strings,True,True,True,True,False,null,True,
+B,t05,1,pep-0636-p01-c001,pep-0636,data/raw/pep-0636.rst,1,Informational,3.10,Tutorial,True,True,True,True,False,null,True,
+B,t05,2,pep-0636-p04-c002,pep-0636,data/raw/pep-0636.rst,4,Informational,3.10,Tutorial > Or patterns,True,True,True,True,False,null,True,
+B,t05,3,pep-0636-p05-c000,pep-0636,data/raw/pep-0636.rst,5,Informational,3.10,Tutorial > Or patterns,True,True,True,True,False,null,True,
+B,t06,1,pep-0634-p03-c001,pep-0634,data/raw/pep-0634.rst,3,Standards Track,3.10,Syntax and Semantics > The Match Statement > Guards,True,True,True,True,False,null,True,
+B,t06,2,pep-0636-p06-c002,pep-0636,data/raw/pep-0636.rst,6,Informational,3.10,Tutorial > Adding conditions to patterns,True,True,True,True,False,null,True,
+B,t06,3,pep-0636-p11-c001,pep-0636,data/raw/pep-0636.rst,11,Informational,3.10,Appendix A -- Quick Intro,True,True,True,True,False,null,True,
+C,t01,1,pep-0008-p15-c001,pep-0008,data/raw/pep-0008.rst,15,Process,n/a,Naming Conventions > Prescriptive: Naming Conventions > Constants,True,True,True,True,False,null,True,
+C,t01,2,pep-0008-p13-c003,pep-0008,data/raw/pep-0008.rst,13,Process,n/a,Naming Conventions > Prescriptive: Naming Conventions > Package and Module Names,True,True,True,True,False,null,True,
+C,t01,3,pep-0008-p14-c002,pep-0008,data/raw/pep-0008.rst,14,Process,n/a,Naming Conventions > Prescriptive: Naming Conventions > Global Variable Names,True,True,True,True,False,null,True,
+C,t02,1,pep-0572-p16-c001,pep-0572,data/raw/pep-0572.rst,16,Standards Track,3.8,Rejected alternative proposals > Allowing commas to the right,True,True,True,True,False,null,True,
+C,t02,2,pep-0572-p16-c000,pep-0572,data/raw/pep-0572.rst,16,Standards Track,3.8,Rejected alternative proposals > Lowering operator precedence,True,True,True,True,False,null,True,
+C,t02,3,pep-0572-p15-c002,pep-0572,data/raw/pep-0572.rst,15,Standards Track,3.8,Rejected alternative proposals > Lowering operator precedence,True,True,True,True,False,null,True,
+C,t03,1,pep-0498-p02-c001,pep-0498,data/raw/pep-0498.rst,2,Standards Track,3.6,Rationale,True,True,True,True,False,null,True,
+C,t03,2,pep-0498-p03-c000,pep-0498,data/raw/pep-0498.rst,3,Standards Track,3.6,Rationale,True,True,True,True,False,null,True,
+C,t03,3,pep-0498-p05-c000,pep-0498,data/raw/pep-0498.rst,5,Standards Track,3.6,Specification,True,True,True,True,False,null,True,
+C,t04,1,pep-0257-p03-c001,pep-0257,data/raw/pep-0257.rst,3,Informational,n/a,Specification > Multi-line Docstrings,True,True,True,True,False,null,True,
+C,t04,2,pep-0257-p01-c002,pep-0257,data/raw/pep-0257.rst,1,Informational,n/a,Specification,True,True,True,True,False,null,True,
+C,t04,3,pep-0008-p11-c002,pep-0008,data/raw/pep-0008.rst,11,Process,n/a,Comments > Documentation Strings,True,True,True,True,False,null,True,
+C,t05,1,pep-0636-p01-c001,pep-0636,data/raw/pep-0636.rst,1,Informational,3.10,Tutorial,True,True,True,True,False,"{""pep_type"": ""Informational""}",True,
+C,t05,2,pep-0636-p04-c002,pep-0636,data/raw/pep-0636.rst,4,Informational,3.10,Tutorial > Or patterns,True,True,True,True,False,"{""pep_type"": ""Informational""}",True,
+C,t05,3,pep-0636-p05-c000,pep-0636,data/raw/pep-0636.rst,5,Informational,3.10,Tutorial > Or patterns,True,True,True,True,False,"{""pep_type"": ""Informational""}",True,
+C,t06,1,pep-0634-p03-c001,pep-0634,data/raw/pep-0634.rst,3,Standards Track,3.10,Syntax and Semantics > The Match Statement > Guards,True,True,True,True,False,"{""pep_type"": ""Standards Track""}",True,
+C,t06,2,pep-0634-p02-c001,pep-0634,data/raw/pep-0634.rst,2,Standards Track,3.10,Syntax and Semantics > The Match Statement > Match Semantics,True,True,True,True,False,"{""pep_type"": ""Standards Track""}",True,
+C,t06,3,pep-0634-p03-c002,pep-0634,data/raw/pep-0634.rst,3,Standards Track,3.10,Syntax and Semantics > The Match Statement > Irrefutable case blocks,True,True,True,True,False,"{""pep_type"": ""Standards Track""}",True,

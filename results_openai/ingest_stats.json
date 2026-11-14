@@ -1,0 +1,97 @@
+{
+  "run_at": "2026-11-14T10:44:05+07:00",
+  "env": {
+    "python": "3.10.0",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "chromadb": "1.5.9",
+    "sentence_transformers": "6.3.0",
+    "transformers": "5.20.2",
+    "torch": "2.14.1+cpu",
+    "device": "openai-api",
+    "embed_model": "text-embedding-3-small",
+    "dimensions": 1536,
+    "max_seq_length": 512,
+    "query_instruction": "Represent this sentence for searching relevant passages: ",
+    "metric": "cosine (hnsw:space=cosine)",
+    "search": "approximate (Chroma HNSW index)",
+    "store_path": "chroma_db",
+    "provider": "openai"
+  },
+  "model_load_s": 3.13,
+  "strategies": {
+    "A": {
+      "collection": "day6_A_fixed500_openai",
+      "params": {
+        "collection": "day6_A_fixed500_openai",
+        "chunking": "fixed",
+        "size": 500,
+        "overlap": 50,
+        "use_filter": false
+      },
+      "chunk_count": 606,
+      "collection_count_after": 606,
+      "chars_total": 276410,
+      "chars_min": 53,
+      "chars_median": 500.0,
+      "chars_mean": 456.1,
+      "chars_max": 500,
+      "embed_tokens_total": 79137,
+      "embed_tokens_max": 156,
+      "inputs_truncated": 0,
+      "ingest_seconds": 12.5,
+      "added": 606,
+      "deleted": 0,
+      "skipped": 0,
+      "cost_usd_cumulative": 0.001446
+    },
+    "B": {
+      "collection": "day6_B_structure1200_openai",
+      "params": {
+        "collection": "day6_B_structure1200_openai",
+        "chunking": "structure",
+        "max_size": 1200,
+        "use_filter": false
+      },
+      "chunk_count": 364,
+      "collection_count_after": 364,
+      "chars_total": 251633,
+      "chars_min": 29,
+      "chars_median": 719.5,
+      "chars_mean": 691.3,
+      "chars_max": 1196,
+      "embed_tokens_total": 68892,
+      "embed_tokens_max": 319,
+      "inputs_truncated": 0,
+      "ingest_seconds": 7.71,
+      "added": 364,
+      "deleted": 0,
+      "skipped": 0,
+      "cost_usd_cumulative": 0.002706
+    },
+    "C": {
+      "collection": "day6_B_structure1200_openai",
+      "params": {
+        "collection": "day6_B_structure1200_openai",
+        "chunking": "structure",
+        "max_size": 1200,
+        "use_filter": false
+      },
+      "chunk_count": 364,
+      "collection_count_after": 364,
+      "chars_total": 251633,
+      "chars_min": 29,
+      "chars_median": 719.5,
+      "chars_mean": 691.3,
+      "chars_max": 1196,
+      "embed_tokens_total": 68892,
+      "embed_tokens_max": 319,
+      "inputs_truncated": 0,
+      "ingest_seconds": 7.71,
+      "added": 364,
+      "deleted": 0,
+      "skipped": 0,
+      "cost_usd_cumulative": 0.002706,
+      "note": "re-uses index of strategy B; only adds metadata filter at query time"
+    }
+  }
+}
